@@ -7,13 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringJwtSecurityApplication {
 
 	public static void main(String[] args) {
-		
-		String a="aa";
-		String b="aa";
-		String c="";
-		
-		if(c!=null && (a==b) || b.equals(a))
-			System.out.println("Tested === ");
 		SpringApplication.run(SpringJwtSecurityApplication.class, args);
 	}
 
